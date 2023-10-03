@@ -70,3 +70,11 @@ Se desea obtener los registros con sus nombre que contengan la letra 'a'
 Select * FROM cliente   WHERE nombre LIKE '___a'
 
 ![Consulta](/8.png "consulta 8")
+
+### Consulta No. 9
+
+9. Si se desea obtener los registros cuya identificación esté entre el intervalo 110 y 150, se debe utilizar la cláusula ´BETWEEN', que sirve para especificar un intervalo de valores.
+
+Select * FROM clientes WHERE identificacion BETWEEN 110 AND 150 
+
+![Consulta](/9.png "consulta 8")
