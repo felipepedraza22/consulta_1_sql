@@ -90,4 +90,10 @@ Select * FROM clientes WHERE identificacion BETWEEN 110 AND 150
 DELETE FROM cliente WHERE identificación > 160
 
 
-![Consulta](/delete.png "consulta de eliminación")
+![Consulta](/delete.png "consulta de eliminación 1")
+
+2. Eliminar los registros cuya identificación igual a 116
+
+DELETE FROM cliente WHERE identificación = 116
+
+![Consulta](/116.png "consulta de eliminación de dato 116 de la tabla ")
