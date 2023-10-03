@@ -62,3 +62,11 @@ Se desea obtener los registros con sus nombre que contengan la letra 'a'
 
 ´Select * FROM Cliente WHERE nombre LIKE '%a%'´
 ![Consulta](/7.png "consulta 7")
+
+### Consulta No. 8
+
+8. Se desea obtener los registros donde la cuarta letra del nombre del cliente sea la letra 'a'
+
+Select * FROM cliente   WHERE nombre LIKE '___a'
+
+![Consulta](/8.png "consulta 8")
