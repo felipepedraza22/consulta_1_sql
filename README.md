@@ -97,3 +97,24 @@ DELETE FROM cliente WHERE identificación > 160
 DELETE FROM cliente WHERE identificación = 116
 
 ![Consulta](/116.png "consulta de eliminación de dato 116 de la tabla ")
+
+### Instrucción UPDATE 
+- Permite actualizar un campo de una tabña. 
+- Su formato es: UPDATE nombre_tabla SET nombre_campo = valor
+
+### Actualización No. 1 
+1. Para actualizar la ciudad de nacimiento de Cristian Vanegas, cuya identificación es 114 
+UPDATE Clientes SET ciudad_nac = 'Pereira' WHERE identificación =114
+
+![Consulta](/cambio.png "consulta cambio de datos del 114 ")
+
+## Creacion Tabla Pedido
+
+### Diccionario de datos
+|Campo|Tipo de dato|Longitud|
+|-----|------------|--------|
+|***No_pedido**|varchar|15|
+|iden_cliente|varchar|15|
+|fecha_compra|date||
+|fecha_vencimiento|date||
+|observacion|varchar|30|
